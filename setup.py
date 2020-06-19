@@ -13,6 +13,7 @@ setup(
         "pytest>=4.2",
         "pytest-variables>=1.5.0",
         "requests",
+        "gherkin-official>=4.1.3"
     ],
     entry_points={
         "pytest11": [

@@ -5,9 +5,9 @@ setup(
     use_scm_version=True,
     description="pytest plugin for Testrail",
     long_description=open("README.rst").read(),
-    author="Sergiu Popescu",
-    author_email="spopescu@moduscreate.com",
-    url="https://github.com/popescunsergiu/pytest_testrail",
+    author="Robson Policarpo",
+    author_email="robsonpolicarpo.com",
+    url="https://github.com/robsonpolicarpo/pytest-testrail",
     packages=["pytest_testrail", "pytest_testrail.model", "pytest_testrail.ydh"],
     install_requires=[
         "pytest>=4.2",

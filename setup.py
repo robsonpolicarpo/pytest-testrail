@@ -8,10 +8,11 @@ setup(
     author="Sergiu Popescu",
     author_email="spopescu@moduscreate.com",
     url="https://github.com/popescunsergiu/pytest_testrail",
-    packages=["pytest_testrail", "pytest_testrail.model"],
+    packages=["pytest_testrail", "pytest_testrail.model", "pytest_testrail.ydh"],
     install_requires=[
         "pytest>=4.2",
         "pytest-variables>=1.5.0",
+        "gherkin-official>=4.1.3",
         "requests",
     ],
     entry_points={

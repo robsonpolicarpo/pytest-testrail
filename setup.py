@@ -5,19 +5,18 @@ setup(
     use_scm_version=True,
     description="pytest plugin for Testrail",
     long_description=open("README.rst").read(),
-    author="Robson Policarpo",
-    author_email="robsonpolicarpo.com",
-    url="https://github.com/robsonpolicarpo/pytest-testrail",
-    packages=["pytest_testrail", "pytest_testrail.model", "pytest_testrail.ydh"],
+    author="Sergiu Popescu",
+    author_email="spopescu@moduscreate.com",
+    url="https://github.com/popescunsergiu/pytest_testrail",
+    packages=["pytest_testrail", "pytest_testrail.model"],
     install_requires=[
         "pytest>=4.2",
         "pytest-variables>=1.5.0",
-        "gherkin-official>=4.1.0",
         "requests",
     ],
     entry_points={
         "pytest11": [
-            "pytest-testrail = pytest_testrail.testrail_api",
+            "TestRailAPI = pytest_testrail.testrail_api",
         ]
     },
     setup_requires=["setuptools_scm"],

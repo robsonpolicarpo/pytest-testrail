@@ -1,4 +1,5 @@
 import re
+from pathlib import Path
 from typing import List
 
 from pytest_testrail.model.case import Case

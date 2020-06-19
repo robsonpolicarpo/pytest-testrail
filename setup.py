@@ -8,7 +8,7 @@ setup(
     author="Robson Policarpo",
     author_email="robsonpolicarpo.com",
     url="https://github.com/robsonpolicarpo/pytest-testrail",
-    packages=["pytest_testrail", "pytest_testrail.model", "pytest_testrail.ydh"],
+    packages=["pytest_testrail", "pytest_testrail.model"],
     install_requires=[
         "pytest>=4.2",
         "pytest-variables>=1.5.0",

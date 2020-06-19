@@ -8,16 +8,16 @@ setup(
     author="Robson Policarpo",
     author_email="robsonpolicarpo.com",
     url="https://github.com/robsonpolicarpo/pytest-testrail",
-    packages=["pytest_testrail", "pytest_testrail.model"],
+    packages=["pytest_testrail", "pytest_testrail.model", "pytest_testrail.ydh"],
     install_requires=[
         "pytest>=4.2",
         "pytest-variables>=1.5.0",
-        "gherkin-official>=4.1.3",
+        "gherkin-official>=4.1.0",
         "requests",
     ],
     entry_points={
         "pytest11": [
-            "TestRailAPI = pytest_testrail.testrail_api",
+            "pytest-testrail = pytest_testrail.testrail_api",
         ]
     },
     setup_requires=["setuptools_scm"],

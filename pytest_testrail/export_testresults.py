@@ -2,7 +2,7 @@ import json
 
 from pytest_testrail.helper import TestRailError
 from pytest_testrail.model.result import Result
-from pytest_testrail.ydh.tr_base_api import BaseTestRail
+from pytest_testrail.tr_base_api import BaseTestRail
 
 
 class ExportTestResults(BaseTestRail):

@@ -4,8 +4,8 @@ from typing import List
 
 from pytest_testrail.model.case import Case
 from pytest_testrail.model.section import Section
-from pytest_testrail.ydh.gherkin_util import get_feature_files_path, get_feature
-from pytest_testrail.ydh.tr_base_api import BaseTestRail
+from pytest_testrail.gherkin_util import get_feature_files_path, get_feature
+from pytest_testrail.tr_base_api import BaseTestRail
 
 
 def export_testcases(request,
